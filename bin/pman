@@ -169,6 +169,8 @@ if args.b_version:
     print("Version: %s" % str_version)
     sys.exit(1)
 
+hi, this is an error!
+
 comm = pman.pman(
     IP              = args.ip,
     port            = args.port,
