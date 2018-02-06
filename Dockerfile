@@ -26,6 +26,9 @@
 FROM fnndsc/ubuntu-python3:latest
 MAINTAINER fnndsc "dev@babymri.org"
 
+
+SYNTAX ERROR
+
 # Pass a UID on build command line (see above) to set internal UID
 ARG UID=1001
 ENV UID=$UID
